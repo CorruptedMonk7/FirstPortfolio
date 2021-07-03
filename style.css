@@ -61,9 +61,32 @@ body{
     margin-left: 5%;
     margin-right: 5%;
     padding: 20px;
+    
 }
 .three{
     background-image:url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    border-radius: 5px;
+}
+#hard{
+    border-left: 10px solid grey;
+}
+#soft{
+    border-left: 10px solid;
+    border-image: linear-gradient(#d6a4a4, #dae2f8);
+    
+    border-image-slice: 1;
+    
+}
+#hard{
+    border-left: 10px solid;
+    border-image: linear-gradient( #d7dde8, #757f9a);
+    border-image-slice: 1;
+    
+    
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
