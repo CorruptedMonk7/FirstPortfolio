@@ -13,7 +13,7 @@ h1{
 .name{
     color:lightslategrey
 }
-section{
+.flexible{
     display:flex;
     margin-bottom: 100px;
     
@@ -50,4 +50,20 @@ body{
 }
 #curve{
     border-radius: 20px;
+}
+.haha{
+    color:darkslategray;
+    text-align: center;
+}
+.shadowclass{
+    box-shadow: 10px 10px 20px darkslategray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+}
+.three{
+    background-image:url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
